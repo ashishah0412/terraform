@@ -1,0 +1,7 @@
+ Open a terminal and run this command:
+
+eval $(ssh-agent -s)
+ssh-add ~/.ssh/<directory to private SSH key>
+
+Note: Wen you do gitbash and open the session you will have to add the key to the ssh running agent every time 
+new session is opened
