@@ -1,0 +1,21 @@
+variables and Outputs
+Elastic IP
+Count Intro
+DynamicBlock
+Dependencies
+Module
+Security Grouo
+RDS
+Remote State
+EC2 - SH Script File
+IAM Users and Working with Policies
+Import
+Expressions
+Functions
+Data Sources
+Checks
+Remote State
+
+Always have in Terraform configuration the details of everything that is important for resource and can 
+change at any point in time and can impact functioning. 
+Desired state example for security Group. 
