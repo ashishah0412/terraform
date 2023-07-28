@@ -5,3 +5,11 @@ ssh-add ~/.ssh/<directory to private SSH key>
 
 Note: Wen you do gitbash and open the session you will have to add the key to the ssh running agent every time 
 new session is opened
+
+To avoid this every time to be done when new bash session is opened do below:
+1. Create "config" file in the "~/.ssh" on the machine
+2. Add below line to the config file 
+    host github.com
+    HostName github.com
+    IdentityFile ~/.ssh/<Private key>
+    
