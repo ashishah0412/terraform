@@ -23,7 +23,6 @@ resource "aws_elb" "bar" {
   connection_draining         = true
   connection_draining_timeout = var.timeout
 
-
   tags = {
     Name = "foobar-terraform-elb"
   }
